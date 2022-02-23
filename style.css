@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: #fcf6f5ff;
+    padding: 0.7rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+}
+
+
+.page-container{
+    background-color: rgb(243, 122, 243);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+
+.CurrentCity{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+
+.search{
+    padding: 0.5rem;
+    outline: none;
+    border-radius: 1rem;
+    border: none;
+    margin-bottom: 0.7rem;
+}
+
+.search-btn{
+    flood-color: grey;
+    background-color: darkblue;
+    border: none;
+    padding: 0.4rem;
+    font-weight: 800;
+    outline: none;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.searchedCities{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+
+}
+.searchedcity{
+    margin: 0.6rem;
+    width: 80%;
+    padding: 0.3rem;
+    border: none;
+    font-weight: 800;
+    outline: none;
+    border-radius: 1rem;
+}
+
+
+.oneDay{
+    background-color: gray;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.CurrentCity{
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+}
+
+.icon{
+    background-color: #d3d3d3d7;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.forecastContainer{
+    /* margin:1rem; */
+    align-self: center;
+}
+
+.card{
+    margin: .5rem;
+    padding: 0.5rem;
+    background-color: darkorchid;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.forecast{
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forcastDate{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.forcast-detail{
+    margin-bottom: 0.6rem;
+}

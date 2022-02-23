@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <div class="page-container row min-vh-100">
+        <div class="searchbox col-12 col-lg-2 d-flex flex-column">
+            <label class="cityName">Enter City</label>
+            <input id="search" placeholder="Search">
+            <button id="btn">Search</button>
+            <div class="displayHistory">
+                <p>Search History:</p>
+                <ul class="history"></ul>
+            </div>
+        </div>
+    
+
+        <div class="oneDay col-12 col-lg-10 d-flex-column">
+            <div class="Currentcity">City Name:</div>
+                <div class="date">Today's Date:</div>
+                <img src="" alt="" class="icon">
+                <div class="temp">Temp:</div>
+                <div class="windSpeed">Wind:</div>
+                <div class="humidity">Humidity:</div>
+                <div class="UVIndex">UV Index:</div>
+            
+            <h2 class="ForcastContainer"> 5 Day Forcast</h2>
+            <div class="forcast">
+            </div> 
+        </div>
+     </div> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

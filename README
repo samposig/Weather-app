@@ -1,0 +1,24 @@
+//WEATHER-APP>
+
+//Description
+As a traveler
+I want to see the weather outlook for multiple cities
+SO THAT I can plan a trip accordingly.
+
+//Deployed Webpage
+https://samposig.github.io/Weather-app/
+
+//Installation
+To install, go to https://github.com/samposig/Weather-app.  On the top right side click the button labled "code".  Copy the html, open a terminal, and enter 'git clone' + the html link you copied.  This will clone repository down to your local computer.
+
+//Usage
+Using search bar in left hand corner, user can search for the weather in their desired location.  Onced searched, user will be presented with the current weather for that day, along with a 5 day forecast. User can also view cities searched in the past, which when clicked will re-enter into search for user.
+
+'''md
+![Alt text] (Screenshot 2022-02-22 232006.png)
+
+//Credits
+abjj199(githubusername)-provided help starting and setting up api keys
+
+//License
+"https://choosealicense.com/}
